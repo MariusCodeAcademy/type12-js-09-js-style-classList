@@ -8,3 +8,10 @@
 4. h3 - padaryti nestorinta, didziosiom raidem, spalva tomato.
 5. .date - padaryti pilka, paversti fonta i desine puse, uzdeti border po apacia
 6. textas pagrindinis - padaryti linijos auksti 1.5, fonto spalva #333, tarpelius tarp raidziu 1px
+
+### extra
+
+<ul class="card"> elementas turi li elementus. 
+1. Padaryti kad paspaudus ant kazkurio li elemento, jo fontas taptu 25px ir bold
+2. padaryti kad to el ant kurio paspaudem fonas butu tos spalvos kaip parasyta tekste
+3. padaryti kad paspaudus dokumento body fonas butu tos spalvos kuri parasyta
