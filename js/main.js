@@ -5,6 +5,7 @@ console.log('main.js');
 
 const h1El = document.querySelector('h1');
 const btn1El = document.getElementById('bnt1');
+const btn2El = document.getElementById('bnt2');
 const btnSpanEl = btn1El.querySelector('span');
 // boolean velevele
 let largeStyleOn = false;
@@ -15,6 +16,16 @@ btn1El.addEventListener('click', () => {
   // 3. iskviesti konsole log
   console.log('paspaudei');
   toggleStyles();
+});
+
+btn2El.addEventListener('click', () => {
+  // uzdeti klase
+  // h1El.classList.add('largeEl');
+  // uzdeti jei nera, nuimti jei yra
+  h1El.classList.toggle('largeEl');
+  // ar to kia klase yra
+  const yra = h1El.classList.contains('largeEl');
+  console.log('yra ===', yra);
 });
 
 console.log('h1El ===', h1El);
