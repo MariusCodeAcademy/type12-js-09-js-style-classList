@@ -14,6 +14,7 @@
 1.  <button>Dark Mode</button>
 2.  kai paspaudziam uzdeti klase body elementui. Ta klase padaro fono spalva #333, texto spalva snow.
 3.  pakartotinai paspaudus mygtuka nusiima klase
+4.  keisti teksta Dark Mode => Light Mode => Dark Mode => Light Mode
 
 ### extra
 
