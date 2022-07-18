@@ -7,8 +7,21 @@ const h1El = document.querySelector('h1');
 const btn1El = document.getElementById('bnt1');
 const btn2El = document.getElementById('bnt2');
 const btnSpanEl = btn1El.querySelector('span');
+const cardUlEl = document.querySelector('.card');
 // boolean velevele
 let largeStyleOn = false;
+
+console.log('cardUlEl ===', cardUlEl);
+cardUlEl.addEventListener('mousedown', (event) => {
+  console.log('paspaudziau', event.target);
+  // tai ant ko paspaudem === event.target
+  const el = event.target;
+  const elTextColor = el.textContent;
+  el.style.fontWeight = 'bold';
+  // el.style.border = '1px dashed tomato';
+  el.style.backgroundColor = elTextColor;
+  el.style.color = 'white';
+});
 
 // 1. nusitaikyti i mygtuka
 // 2. uzdeti event listeneri
