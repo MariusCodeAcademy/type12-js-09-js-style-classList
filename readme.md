@@ -9,6 +9,12 @@
 5. .date - padaryti pilka, paversti fonta i desine puse, uzdeti border po apacia
 6. textas pagrindinis - padaryti linijos auksti 1.5, fonto spalva #333, tarpelius tarp raidziu 1px
 
+### classList uzd
+
+1.  <button>Dark Mode</button>
+2.  kai paspaudziam uzdeti klase body elementui. Ta klase padaro fono spalva #333, texto spalva snow.
+3.  pakartotinai paspaudus mygtuka nusiima klase
+
 ### extra
 
 <ul class="card"> elementas turi li elementus. 
