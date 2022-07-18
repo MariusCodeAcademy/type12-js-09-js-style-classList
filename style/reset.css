@@ -88,3 +88,7 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
+.transition {
+  transition: all 0.3s ease-in-out;
+}
